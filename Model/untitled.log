@@ -10,14 +10,38 @@ Exporter version: 5.6.4, Blender version: 2.79 (sub 0)
 		Mat Weight Precision:  2
 		texture directory   :  H:\@Game\Aladdin_Directx_Nhom7(1)\Aladdin_Directx_Nhom7(1)\Aladdin_Directx_Nhom7\MyImage\Model\
 	Python World class constructor completed
-	processing begun of mesh:  Tower2.001_Cylindre.000
-		WARNING: No materials have been assigned: 
-		num positions      :  7343
-		num normals        :  7343
-		num uvs            :  14686
+	processing begun of mesh:  a_kidan
+		processing begun of Standard material:  24 - Default
+		num positions      :  456234
+		num normals        :  456234
+		num uvs            :  912468
 		num uvs2           :  0
 		num colors         :  0
-		num indices        :  9597
+		num indices        :  926109
+	processing begun of mesh:  Cylinder.001_Cylinder.000
+		processing begun of Standard material:  Bottom
+		num positions      :  1000
+		num normals        :  1000
+		num uvs            :  2000
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3696
+	processing begun of mesh:  Cylinder.002_Cylinder.001
+		processing begun of Standard material:  Furn
+		num positions      :  3419
+		num normals        :  3419
+		num uvs            :  6838
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12750
+	processing begun of mesh:  Cylinder.003
+		processing begun of Standard material:  Body
+		num positions      :  1079
+		num normals        :  1079
+		num uvs            :  2158
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4206
 	processing begun of mesh:  Cube
 		processing begun of Standard material:  Material
 		num positions      :  8
@@ -31,4 +55,4 @@ Exporter version: 5.6.4, Blender version: 2.79 (sub 0)
 ========= Writing of scene file started =========
 ========= Writing of scene file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 0.7773 secs
+elapsed time:  5 min, 42.7421 secs
