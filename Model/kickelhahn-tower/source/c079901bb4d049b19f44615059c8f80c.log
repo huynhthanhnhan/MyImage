@@ -1,0 +1,34 @@
+Exporter version: 5.6.4, Blender version: 2.79 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		export scope        :  ALL
+		inline textures     :  false
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		texture directory   :  H:\@Game\Aladdin_Directx_Nhom7(1)\Aladdin_Directx_Nhom7(1)\Aladdin_Directx_Nhom7\MyImage\Model\kickelhahn-tower\source\
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of mesh:  KH_TowerHigh.003
+		WARNING: Contains material requiring baking, but resources not available.  Probably .blend very old
+		processing begun of Standard material:  Material.000
+			Bump texture found "Texture.002"
+				Image texture found, type:  bumpTexture, mapped using: "uv"
+			Bump texture found "Texture.003"
+				Image texture found, type:  bumpTexture, mapped using: "uv"
+			Diffuse texture found "I.Kickelhahn_COL.jpg.001"
+				Image texture found, type:  diffuseTexture, mapped using: "uv"
+			Bump texture found "I.Kickelhahn_COL.jpg.001"
+				Image texture found, type:  bumpTexture, mapped using: "uv"
+		num positions      :  4428
+		num normals        :  4428
+		num uvs            :  8856
+		num uvs2           :  0
+		num colors         :  17712
+		num indices        :  9297
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 1.9856 secs

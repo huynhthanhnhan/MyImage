@@ -1,0 +1,90 @@
+Exporter version: 5.6.4, Blender version: 2.79 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		export scope        :  ALL
+		inline textures     :  false
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		texture directory   :  H:\@Game\Aladdin_Directx_Nhom7(1)\Aladdin_Directx_Nhom7(1)\Aladdin_Directx_Nhom7\MyImage\Model\clocktower-hong-kong\source\
+	Python World class constructor completed
+	processing begun of skeleton:  metarig, id:  0
+		processing begun of bone:  hips, index:  0
+		processing begun of bone:  spine, index:  1
+		processing begun of bone:  chest, index:  2
+		processing begun of bone:  neck, index:  3
+		processing begun of bone:  head, index:  4
+		processing begun of bone:  shoulder.L, index:  5
+		processing begun of bone:  upper_arm.L, index:  6
+		processing begun of bone:  forearm.L, index:  7
+		processing begun of bone:  hand.L, index:  8
+		processing begun of bone:  palm.01.L, index:  9
+		processing begun of bone:  f_index.01.L, index:  10
+		processing begun of bone:  f_index.02.L, index:  11
+		processing begun of bone:  f_index.03.L, index:  12
+		processing begun of bone:  thumb.01.L, index:  13
+		processing begun of bone:  thumb.02.L, index:  14
+		processing begun of bone:  thumb.03.L, index:  15
+		processing begun of bone:  palm.02.L, index:  16
+		processing begun of bone:  f_middle.01.L, index:  17
+		processing begun of bone:  f_middle.02.L, index:  18
+		processing begun of bone:  f_middle.03.L, index:  19
+		processing begun of bone:  palm.03.L, index:  20
+		processing begun of bone:  f_ring.01.L, index:  21
+		processing begun of bone:  f_ring.02.L, index:  22
+		processing begun of bone:  f_ring.03.L, index:  23
+		processing begun of bone:  palm.04.L, index:  24
+		processing begun of bone:  f_pinky.01.L, index:  25
+		processing begun of bone:  f_pinky.02.L, index:  26
+		processing begun of bone:  f_pinky.03.L, index:  27
+		processing begun of bone:  shoulder.R, index:  28
+		processing begun of bone:  upper_arm.R, index:  29
+		processing begun of bone:  forearm.R, index:  30
+		processing begun of bone:  hand.R, index:  31
+		processing begun of bone:  palm.01.R, index:  32
+		processing begun of bone:  f_index.01.R, index:  33
+		processing begun of bone:  f_index.02.R, index:  34
+		processing begun of bone:  f_index.03.R, index:  35
+		processing begun of bone:  thumb.01.R, index:  36
+		processing begun of bone:  thumb.02.R, index:  37
+		processing begun of bone:  thumb.03.R, index:  38
+		processing begun of bone:  palm.02.R, index:  39
+		processing begun of bone:  f_middle.01.R, index:  40
+		processing begun of bone:  f_middle.02.R, index:  41
+		processing begun of bone:  f_middle.03.R, index:  42
+		processing begun of bone:  palm.03.R, index:  43
+		processing begun of bone:  f_ring.01.R, index:  44
+		processing begun of bone:  f_ring.02.R, index:  45
+		processing begun of bone:  f_ring.03.R, index:  46
+		processing begun of bone:  palm.04.R, index:  47
+		processing begun of bone:  f_pinky.01.R, index:  48
+		processing begun of bone:  f_pinky.02.R, index:  49
+		processing begun of bone:  f_pinky.03.R, index:  50
+		processing begun of bone:  thigh.L, index:  51
+		processing begun of bone:  shin.L, index:  52
+		processing begun of bone:  foot.L, index:  53
+		processing begun of bone:  toe.L, index:  54
+		processing begun of bone:  heel.L, index:  55
+		processing begun of bone:  heel.02.L, index:  56
+		processing begun of bone:  thigh.R, index:  57
+		processing begun of bone:  shin.R, index:  58
+		processing begun of bone:  foot.R, index:  59
+		processing begun of bone:  toe.R, index:  60
+		processing begun of bone:  heel.R, index:  61
+		processing begun of bone:  heel.02.R, index:  62
+	processing begun of mesh:  clock_tower_mockUp.007
+		processing begun of baked material:  clock_tower_mockUp.007
+========= An error was encountered =========
+  File "C:\Users\huynh\AppData\Roaming\Blender Foundation\Blender\2.79\scripts\addons\babylon-js\json_exporter.py", line 107, in execute
+    mesh = Mesh(object, scene, self)
+  File "C:\Users\huynh\AppData\Roaming\Blender Foundation\Blender\2.79\scripts\addons\babylon-js\mesh.py", line 165, in __init__
+    bakedMat = BakedMaterial(exporter, object, recipe)
+  File "C:\Users\huynh\AppData\Roaming\Blender Foundation\Blender\2.79\scripts\addons\babylon-js\material.py", line 445, in __init__
+    bpy.ops.mesh.select_all(action='SELECT')
+  File "C:\Program Files\Blender Foundation\Blender\2.79\scripts\modules\bpy\ops.py", line 189, in __call__
+    ret = op_call(self.idname_py(), None, kw)
+ERROR:  Operator bpy.ops.mesh.select_all.poll() failed, context is incorrect
+========= end of processing =========
+elapsed time:  0 min, 0.0439 secs
